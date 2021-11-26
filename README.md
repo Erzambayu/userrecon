@@ -1,5 +1,7 @@
-# UserRecon v1.0
+# UserRecon v1.2
 # Author: @thelinuxchoice
+# Edited: @Erzambayu
+# https://github.com/Erzambayu/userrecon
 # https://github.com/thelinuxchoice/userrecon
 
 # Some of "Found!" result is wrong/incorrect
@@ -18,7 +20,7 @@ This is useful if you are running an investigation to determine the usage of the
   - [ ] Fix or remove Google+ check
   - [ ] Fix or remove Wordpress check
   - [ ] Fix or remove Pintrest check
-  - [ ] Fix or remove Flickr check
+  - [ ] Fix or remove Tiktok check
   - [ ] Fix or remove Imgur check
   - [ ] Fix or remove Fotolog check
   - [ ] Fix or remove MixCloud check
@@ -45,10 +47,11 @@ This is useful if you are running an investigation to determine the usage of the
 
 $ sudo apt update && apt upgrade
 
-$ git clone https://github.com/wishihab/userrecon.git
+$ git clone https://github.com/Erzambayu/userrecon.git
 
 $ cd userrecon
 
 $ ./userrecon.sh
 
+## This tool has been tested in Termux android
 ### This tool has been tested in many os like parrot os , kali linux ,ubuntu os all of them works perfectly fine  !
