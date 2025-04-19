@@ -1,57 +1,103 @@
-# UserRecon v1.2
-# Author: @thelinuxchoice
-# Edited: @Erzambayu
+# UserRecon v2.0
+# Original Author: @thelinuxchoice
+# Updated by: @Erzambayu
+# Further updated: 2025
 # https://github.com/Erzambayu/userrecon
 # https://github.com/thelinuxchoice/userrecon
 
-# Some of "Found!" result is wrong/incorrect
-Edit "grep -o 'sometexthere' ; echo $?" to fix the problem
-
-Find usernames across over 75 social networks
+Find usernames across over 30 modern social networks (2025)
 This is useful if you are running an investigation to determine the usage of the same username on different social networks.
 
 ![userrecon](./userrecon.png)
 
-## TODO:
+## Features
 
-  - [ ] Fix or remove Instagram check
-  - [ ] Fix or remove Facebook check
-  - [ ] Fix or remove Twitter check
-  - [ ] Fix or remove Google+ check
-  - [ ] Fix or remove Wordpress check
-  - [ ] Fix or remove Pintrest check
-  - [ ] Fix or remove Tiktok check
-  - [ ] Fix or remove Imgur check
-  - [ ] Fix or remove Fotolog check
-  - [ ] Fix or remove MixCloud check
-  - [ ] Fix or remove Patreon check
-  - [ ] Fix or remove CashMe check
-  - [ ] Fix or remove Instructables check
-  - [ ] Fix or remove Keybase check
-  - [ ] Fix or remove AngelList check
-  - [ ] Fix or remove Foursqyare check
-  - [x] Fix or remove Roblox check
-  - [ ] Fix or remove Gumroad check
-  - [ ] Fix or remove Canva check
-  - [ ] Fix or remove CreativeMarket check
-  - [ ] Fix or remove Houzz check
-  - [ ] Fix or remove ColourLovers check
-  - [ ] Fix or remove Trip check
-- [x] Rename Github to GitHub
-- [ ] Alphabetize the checks
-- [ ] Add the website name to the created document
-- [ ] Add more checks
-- [ ] Possibly add in controlled variations?
-- [ ] Add triple (maybe more?) checking to determine which are false-positives, or false negatives
-# Installation 
+- Modern social media platform support (30+ platforms)
+- Improved detection methods to reduce false positives
+- Better error handling and timeout management
+- Clean and organized code structure
+- Results saved to text file for easy reference
 
+## Supported Platforms
+
+- Instagram 
+- TikTok 
+- Twitter/X 
+- Facebook 
+- LinkedIn 
+- GitHub 
+- YouTube 
+- Reddit 
+- Pinterest 
+- Twitch 
+- Medium 
+- Tumblr 
+- Snapchat 
+- Telegram 
+- Threads 
+- Discord 
+- Mastodon 
+- Substack 
+- Patreon 
+- OnlyFans 
+- Spotify 
+- SoundCloud 
+- Behance 
+- Dribbble 
+- Roblox 
+- Steam 
+- Fiverr 
+- Etsy 
+- Ko-fi 
+- Buy Me a Coffee 
+- DeviantArt 
+- Flickr 
+- Quora 
+- Bluesky 
+
+## Installation 
+
+```bash
 $ sudo apt update && apt upgrade
 
 $ git clone https://github.com/Erzambayu/userrecon.git
 
 $ cd userrecon
 
-$ ./userrecon.sh
+$ chmod +x userrecon.sh
 
-### This tool has been tested in Termux android
-### This tool has been tested in many os like parrot os , kali linux ,ubuntu os all of them works perfectly fine  !
+$ ./userrecon.sh
+```
+
+### Compatibility
+
+This tool has been tested in:
+- Termux (Android)
+- Kali Linux
+- Parrot OS
+- Ubuntu
+- Other Debian-based distributions
+
+All of them work perfectly fine!
+
+## Changelog
+
+### v2.0 (2025)
+- Added 15+ new modern social platforms
+- Fixed detection methods for Instagram, Facebook, Twitter/X, TikTok, and more
+- Improved error handling and timeout management
+- Reorganized code structure for better maintainability
+- Updated user agent to modern browser
+- Added internet connection checking
+
+### v1.2
+- Fixed Roblox check
+- Renamed Github to GitHub
+- Various bug fixes
+
+## TODO:
+- [ ] Add more regional social networks
+- [ ] Implement multi-threading for faster checks
+- [ ] Add option to export results in different formats (JSON, CSV)
+- [ ] Create a simple GUI interface
+- [ ] Add proxy support for enhanced privacy
